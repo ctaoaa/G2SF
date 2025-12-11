@@ -60,10 +60,15 @@ cd G2SF
 # Create conda environment (recommended)
 conda create -n G2SF python=3.9
 conda activate G2SF
+conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.4 -c pytorch -c nvidia
 
+# Install pointnet2-ops 0.3.0 (If any trouble, please go to the repo [Pointnet2_PyTorch]([https://github.com/open-mmlab/mmdetection](https://github.com/erikwijmans/Pointnet2_PyTorch/tree/master)
+pip install pointnet2_ops_lib/. --no-build-isolation
 
 # Install dependencies
 pip install -r requirements.txt
 ```
+
+
 
 ## 📁 Repository Structure
