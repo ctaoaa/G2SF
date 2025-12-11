@@ -73,46 +73,17 @@ pip install -r requirements.txt
 
 ## 📁 Repository Structure
 .
-├── configs/               # Configuration files
-│   ├── train.yaml        # Training configuration
-│   └── eval.yaml         # Evaluation configuration
-├── data/                 # Data loading utilities
-│   ├── datasets.py       # Dataset classes
-│   └── transforms.py     # Data transformations
-├── models/               # Model architectures
-│   ├── __init__.py
-│   ├── backbone.py       # Backbone networks
-│   ├── head.py          # Task-specific heads
-│   └── losses.py        # Loss functions
-├── scripts/              # Training/evaluation scripts
-│   ├── train.py
-│   ├── evaluate.py
-│   └── demo.py
-├── utils/                # Utilities
-│   ├── logger.py
-│   ├── metrics.py
-│   └── visualization.py
-├── notebooks/            # Jupyter notebooks
-│   └── demo.ipynb       # Interactive demo
-├── experiments/          # Experiment logs and checkpoints
-├── requirements.txt      # Python dependencies
-├── setup.py             # Package setup
-└── LICENSE
-.
-Checkpoints/  
-├── dino_.pth        # RGB feature extractor
-└── pointmae_.pth    # Point cloud feature extractor
-Dataset/                 # Data loading utilities
+Dataset/                    # Data loading utilities
 ├── __init__.py
-├── create_anomaly_source.py  # Collecting indices of samples for pseudo anomaly generation
-├── cut_paste.py         # Cut-and-paste anomaly synthesis
-├── eyecandies.py        # dataloader for Eyecandies dataset
-├── eyecandies_pseudo.py # dataloader for Eyecandies dataset with pseudo anomalies
-├── mvtec3d.py           # dataloader for MvTec3D-AD dataset
-├── mvtec3d_pseudo.py    # dataloader for MvTec3D-AD dataset with pseudo anomalies
-├── mvtec3d_util.py      # utilities
-├── perlin.py            # Perlin noise for anomaly masks
-└── util.py              # utilities
-
-├── requirements.txt      # Python dependencies
+├── datasets.py             # Dataset classes
+├── transforms.py           # Data transformations
+├── create_anomaly_source.py
+├── cut_paste.py
+├── eyecandies.py
+├── eyecandies_pseudo.py
+├── mvtec3d.py
+├── mvtec3d_pseudo.py
+├── mvtec3d_util.py
+├── perlin.py
+└── util.py
 
