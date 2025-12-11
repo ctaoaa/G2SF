@@ -6,11 +6,6 @@
   <a href="https://github.com/{ctaoaa}/{G2SF}/issues"><img src="https://img.shields.io/github/issues/{ctaoaa}/{G2SF}?style=flat&logo=github" alt="Issues"></a>
 </p>
 
-<!-- 主图 -->
-<p align="center">
-  <img src="framework.pdf" width="80%">
-</p>
-
 <p align="center">
   <a href="https://github.com/ctaoaa/G2SF/raw/main/framework.pdf">
     <img src="https://img.shields.io/badge/PDF-Framework-1f7ede?style=flat&logo=adobe-acrobat" alt="Framework PDF"/>
@@ -32,4 +27,9 @@
   📧 Corresponding: <a href="mailto:{{email}}">ctaoaa@connect.ust.hk</a>
 </p>
 
+
+<!-- 主图 -->
+<p align="center">
+  <img src="framework.pdf" width="80%">
+</p>
 ---
