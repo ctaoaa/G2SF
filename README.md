@@ -11,7 +11,7 @@
   <img src="assets/teaser.jpg" width="80%">
 </p>
 
-<h1 align="center">{{Title}}</h1>
+<h1 align="center">G$^2$SF: Geometry-Guided Score Fusion for Multimodal Industrial Anomaly Detection</h1>
 <h3 align="center">ICCV 2025</h3>
 
 <p align="center">
