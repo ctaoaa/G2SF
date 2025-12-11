@@ -73,17 +73,12 @@ pip install -r requirements.txt
 
 ## 📁 Repository Structure
 
-Dataset/                    # Data loading utilities
-├── __init__.py
-├── datasets.py             # Dataset classes
-├── transforms.py           # Data transformations
-├── create_anomaly_source.py
-├── cut_paste.py
-├── eyecandies.py
-├── eyecandies_pseudo.py
-├── mvtec3d.py
-├── mvtec3d_pseudo.py
-├── mvtec3d_util.py
-├── perlin.py
-└── util.py
+.
+├── .github
+│   └── workflows
+│       └── main.yml
+├── README.md
+├── action.yml
+├── main.py
+└── tree.sh
 
