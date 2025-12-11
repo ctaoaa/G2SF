@@ -46,7 +46,7 @@ This repository contains the official PyTorch implementation of our *G^2SF* acce
 |MVTec-3D AD|   97.1   |   99.7   |    97.9   |   46.8   |
 |Eyecandies |   90.2   |   98.2   |    89.8   |   35.7   |
 
-*Results from the paper (more details in Tables of our paper)*
+*Results from our official paper*
 
 ## 🚀 Quick Start
 
