@@ -11,6 +11,9 @@
   <img src="framework.pdf" width="80%">
 </p>
 
+<embed src="framework.pdf" width="600" height="500" type="application/pdf">
+
+
 <h1 align="center">G$^2$SF: Geometry-Guided Score Fusion for Multimodal Industrial Anomaly Detection</h1>
 <h3 align="center">ICCV 2025</h3>
 
