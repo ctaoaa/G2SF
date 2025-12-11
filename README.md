@@ -48,6 +48,19 @@ This repository contains the official PyTorch implementation of our *G^2SF* acce
 
 *Results from our official paper*
 
+🖋️ If you find this code useful in your research, please cite:
+
+@inproceedings{tao2025g2sf,
+  title={G$^2$SF: Geometry-Guided Score Fusion for Multimodal Industrial Anomaly Detection},
+  author={Tao, Chengyu and Cao, Xuanming and Du, Juan},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={20551--20560},
+  year={2025}
+}
+
+
+
+
 ## 🚀 Environment 
 
 ### Installation
