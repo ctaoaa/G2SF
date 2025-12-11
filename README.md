@@ -100,25 +100,26 @@ pip install -r requirements.txt
 
 -
   Result/
-   ├── mvtec
+  
+  ├── mvtec
    
-      ├── Complete
+    ├── Complete
 
-        ├── bagel
+      ├── bagel
         
-        ...
+      ...
         
-        ├── tire
+      ├── tire
 
-    ├── eyecandies
+  ├── eyecandies
 
-      ├── Complete
+    ├── Complete
 
-        ├── CandyCane
+      ├── CandyCane
         
-        ...
+       ...
         
-        ├── PeppermintCandy
+      ├── PeppermintCandy
 
         
         
