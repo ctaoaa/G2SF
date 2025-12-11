@@ -98,6 +98,27 @@ pip install -r requirements.txt
   
   ├── pointmae_pretrain.pth   
 
+-
+  Result/
+   ├── mvtec
+   
+      ├── Complete
+
+        ├── bagel
+        
+        ...
+        
+        ├── tire
+
+    ├── eyecandies
+
+      ├── Complete
+
+        ├── CandyCane
+        
+        ...
+        
+        ├── PeppermintCandy
 
         
         
