@@ -72,7 +72,32 @@ pip install -r requirements.txt
 
 
 ## 📁 Repository Structure
-
+.
+├── configs/               # Configuration files
+│   ├── train.yaml        # Training configuration
+│   └── eval.yaml         # Evaluation configuration
+├── data/                 # Data loading utilities
+│   ├── datasets.py       # Dataset classes
+│   └── transforms.py     # Data transformations
+├── models/               # Model architectures
+│   ├── __init__.py
+│   ├── backbone.py       # Backbone networks
+│   ├── head.py          # Task-specific heads
+│   └── losses.py        # Loss functions
+├── scripts/              # Training/evaluation scripts
+│   ├── train.py
+│   ├── evaluate.py
+│   └── demo.py
+├── utils/                # Utilities
+│   ├── logger.py
+│   ├── metrics.py
+│   └── visualization.py
+├── notebooks/            # Jupyter notebooks
+│   └── demo.ipynb       # Interactive demo
+├── experiments/          # Experiment logs and checkpoints
+├── requirements.txt      # Python dependencies
+├── setup.py             # Package setup
+└── LICENSE
 .
 Checkpoints/  
 ├── dino_.pth        # RGB feature extractor
