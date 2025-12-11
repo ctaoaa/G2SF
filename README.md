@@ -30,6 +30,6 @@
 
 <!-- 主图 -->
 <p align="center">
-  <img src="framework.pdf" width="80%">
+  <img src="framework.png" width="80%">
 </p>
 ---
