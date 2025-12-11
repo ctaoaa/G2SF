@@ -89,8 +89,8 @@ pip install -r requirements.txt
 
 ## 📥 Checkpoints
 1. Download the weights of RGB and point cloud feature extractors, i.e., [Dinov2](https://www.googledrive.com) and [PointMAE](https://www.googledrive.com). Moving them into *./Checkpoints/* filefolder.
-2. Download the weights of **G^2SF** [here](https://www.googledrive.com). Moving them into *./Results/* fildfoler. **DO NOT CHANGE THE STRUCTURES OF SUB-FILEFOLDERS**
-3. Please check the following organization structure:
+2. Download the weights of **G^2SF** [here](https://www.googledrive.com). Moving them into *./Results/* fildfoler. **DO NOT CHANGE THE STRUCTURES OF SUB-FILEFOLDERS**.
+4. Please check the following organization structure:
 -
    Checkpoint/
                
@@ -101,9 +101,9 @@ pip install -r requirements.txt
 -
   Result/
   
-  ├── mvtec/
+  ├── mvtec/Complete/Classes
 
-  ├── eyecandies/
+  ├── eyecandies/Complete/Classes
 
 
         
