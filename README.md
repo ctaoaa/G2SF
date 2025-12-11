@@ -70,7 +70,7 @@ pip install -r requirements.txt
 ```
 
 ### Dataset Preparation
-# Download dataset ([MvTec3D-AD](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads))
+ 1. Download dataset ([MvTec3D-AD](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads), [Eyecandies](https://eyecan-ai.github.io/eyecandies/download))
 
 
 # Prepare dataset structure
