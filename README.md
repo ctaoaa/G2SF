@@ -101,25 +101,10 @@ pip install -r requirements.txt
 -
   Result/
   
-  ├── mvtec
-   
-    ├── Complete
+  ├── mvtec/
 
-      ├── bagel
-        
-      ...
-        
-      ├── tire
+  ├── eyecandies/
 
-  ├── eyecandies
-
-    ├── Complete
-
-      ├── CandyCane
-        
-       ...
-        
-      ├── PeppermintCandy
 
         
         
