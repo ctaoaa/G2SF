@@ -42,3 +42,24 @@ This repository contains the official PyTorch implementation of our *G^2SF* acce
 - **Method/Model Name**: A systematic G$^{2}$SF framework for industrial multimodal anomaly detection by learning a unified discriminative metric in high-dimensional feature space.
 - **State-of-the-art performance**: MVTec-3D AD dataset: 97.1% I-AUROC, 99.7% P-AUROC, 97.9% AUPRO@30%, 46.8% AUPRO@1%;
                                     Eyecandies dataset: 90.2% I-AUROC, 98.2% P-AUROC, 89.8% AUPRO@30%, 35.7% AUPRO@1%;
+*Results from the paper (more details in Table X)*
+
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ctaoaa/G2SF.git
+cd G2SF
+
+# Create conda environment (recommended)
+conda create -n G2SF python=3.9
+conda activate G2SF
+
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install package in development mode
+pip install -e .
