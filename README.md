@@ -64,5 +64,6 @@ conda activate G2SF
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
 ## 📁 Repository Structure
