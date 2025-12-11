@@ -90,7 +90,7 @@ pip install -r requirements.txt
 2. Preprocess them with the scripts contained in *Preprocessing* filefolder. Besides, you can directly download our preprocessed MvTec3D-AD [here](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads).
 
 ## 📥 Checkpoints
-1. Download the weights of RGB and point cloud feature extractors, i.e., [Dinov2](https://www.googledrive.com) and [PointMAE](https://www.googledrive.com).
+1. Download the weights of RGB and point cloud feature extractors, i.e., [Dinov2](https://www.googledrive.com) and [PointMAE](https://www.googledrive.com). Moving them into *./Checkpoints/* filefolder.
 
 
 ## 🚀 Inference G^2SF
