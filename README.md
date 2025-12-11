@@ -85,14 +85,12 @@ pip install pointnet2_ops_lib/. --no-build-isolation
 # Install dependencies
 pip install -r requirements.txt
 ```
+## 🗄️ Datasets
+1. Download the two datasets ([MvTec3D-AD](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads), [Eyecandies](https://eyecan-ai.github.io/eyecandies/download))
+2. Preprocess them with the scripts contained in *Preprocessing* filefolder. Besides, you can download our preprocessed MvTec3D-AD [here] (https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads).
+
 ## 🚀 Train & 
 
-### Dataset Preparation
- 1. Download dataset ([MvTec3D-AD](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads), [Eyecandies](https://eyecan-ai.github.io/eyecandies/download))
-
-
-# Prepare dataset structure
-python scripts/prepare_data.py --dataset dataset-name --data_dir ./data
 
 
 
