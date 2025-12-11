@@ -38,8 +38,7 @@
 
 This repository contains the official PyTorch implementation of our *G^2SF* accepted at *ICCV 2025*.
 
-**Key Contributions:**
-**Method/Model Name**: A systematic G$^{2}$SF framework for industrial multimodal anomaly detection by learning a unified discriminative metric in high-dimensional feature space.
+**Method**: A systematic G$^{2}$SF framework for industrial multimodal anomaly detection by learning a unified discriminative metric in high-dimensional feature space.
 **State-of-the-art performance**:
 | Dataset   | I-AUROC  | P-AUROC  | AUPRO@30% | AUPRO@1% |
 |-----------|----------|----------|---------- |----------|
