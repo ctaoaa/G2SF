@@ -8,7 +8,7 @@
 
 <!-- 主图 -->
 <p align="center">
-  <img src="assets/teaser.jpg" width="80%">
+  <img src="framework.pdf" width="80%">
 </p>
 
 <h1 align="center">G$^2$SF: Geometry-Guided Score Fusion for Multimodal Industrial Anomaly Detection</h1>
