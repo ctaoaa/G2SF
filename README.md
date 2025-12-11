@@ -15,14 +15,14 @@
 <h3 align="center">ICCV 2025</h3>
 
 <p align="center">
-  <strong>{{Chengyu Tao}}<sup>1</sup>, {{Xuanming Cao}}<sup>2</sup>, {{Juan Du}}<sup>1,2</sup></strong>
+  <strong>Chengyu Tao<sup>1</sup>, Xuanming Cao<sup>2</sup>, Juan Du<sup>1,2</sup></strong>
 </p>
 <p align="center">
-  <sup>1</sup>{{The Hong Kong University of Science and Technology}} &emsp; <sup>2</sup>{{The Hong Kong University of Science and Technology (Guangzhou)}}
+  <sup>1</sup>The Hong Kong University of Science and Technology &emsp; <sup>2</sup>The Hong Kong University of Science and Technology (Guangzhou)
 </p>
 
 <p align="center">
-  📧 Corresponding: <a href="mailto:{{email}}">{{ctaoaa@connect.ust.hk}}</a>
+  📧 Corresponding: <a href="mailto:{{email}}">ctaoaa@connect.ust.hk</a>
 </p>
 
 ---
