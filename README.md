@@ -38,7 +38,7 @@
 
 This repository contains the official PyTorch implementation of our *G^2SF* accepted at *ICCV 2025*.
 
-**Method**: A systematic G$^{2}$SF framework for industrial multimodal anomaly detection by learning a unified discriminative metric in high-dimensional feature space.
+**Abstract**:  Industrial  quality inspection plays a critical role in modern manufacturing by identifying defective products during production. While single-modality approaches using either 3D point clouds or 2D RGB images suffer from information incompleteness, multimodal anomaly detection offers promise through the complementary fusion of crossmodal data. However, existing methods face challenges in effectively integrating unimodal results and improving discriminative power. To address these limitations, we first reinterpret memory bank-based anomaly scores in single modalities as isotropic Euclidean distances in local feature spaces. Dynamically evolving from Euclidean metrics, we propose a novel \underline{G}eometry-\underline{G}uided \underline{S}core \underline{F}usion (G$^{2}$SF) framework that progressively learns an anisotropic local distance metric as a unified score for the fusion task. Through a geometric encoding operator, a novel Local Scale Prediction Network (LSPN) is proposed to predict direction-aware scaling factors that characterize first-order local feature distributions, thereby enhancing discrimination between normal and anomalous patterns. Additionally, we develop specialized loss functions and score aggregation strategy from geometric priors to ensure both metric generalization and efficacy. Comprehensive evaluations on the MVTec-3D AD and Eyecandies datasets demonstrate the state-of-the-art detection performance of our method, and detailed ablation analysis validates each component's contribution.
 
 **State-of-the-art performance**:
 | Dataset   | I-AUROC  | P-AUROC  | AUPRO@30% | AUPRO@1% |
@@ -48,7 +48,7 @@ This repository contains the official PyTorch implementation of our *G^2SF* acce
 
 *Results from our official paper*
 
-## 🚀 Quick Start
+## 🚀 Environment 
 
 ### Installation
 
@@ -68,6 +68,7 @@ pip install pointnet2_ops_lib/. --no-build-isolation
 # Install dependencies
 pip install -r requirements.txt
 ```
+## 🚀 Train & 
 
 ### Dataset Preparation
  1. Download dataset ([MvTec3D-AD](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads), [Eyecandies](https://eyecan-ai.github.io/eyecandies/download))
