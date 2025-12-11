@@ -90,8 +90,11 @@ pip install -r requirements.txt
 ## 📥 Checkpoints
 1. Download the weights of RGB and point cloud feature extractors, i.e., [Dinov2](https://www.googledrive.com) and [PointMAE](https://www.googledrive.com). Moving them into *./Checkpoints/* filefolder.
 2. Download the weights of **G^2SF** [here](https://www.googledrive.com). Moving them into *./Results/* fildfoler.
-3. Please check the following organizatio structure:
-   
+3. Please check the following organization structure:
+   Checkpoint/                    
+  ├── dino_vitbase8_pretrain.pth
+  ├── pointmae_pretrain.pth   
+  
    
 
 
