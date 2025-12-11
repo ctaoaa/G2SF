@@ -3,7 +3,7 @@
   <a href="https://arxiv.org/abs/{{2503.10091}}"><img src="https://img.shields.io/badge/arXiv-{{2503.10091}}-b31b1b.svg?style=flat&logo=arxiv" alt="arXiv"></a>
   <a href="https://opensource.org/licenses/{{license}}"><img src="https://img.shields.io/badge/License-{{license}}-green.svg?style=flat" alt="License"></a>
   <a href="https://github.com/{ctaoaa}/{G2SF}"><img src="https://img.shields.io/github/v/release/{ctaoaa}/{G2SF}?include_prereleases&style=flat&logo=github" alt="GitHub release"></a>
-  <a href="https://github.com/{ctaoaa}/{G2SF}/Issues"><img src="https://img.shields.io/github/issues/{ctaoaa}/{G2SF}?style=flat&logo=github" alt="Issues"></a>
+  <a href="https://github.com/{ctaoaa}/{G2SF}/issues"><img src="https://img.shields.io/github/issues/{ctaoaa}/{G2SF}?style=flat&logo=github" alt="Issues"></a>
 </p>
 
 <p align="center">
