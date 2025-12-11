@@ -69,16 +69,13 @@ pip install pointnet2_ops_lib/. --no-build-isolation
 pip install -r requirements.txt
 ```
 
+### Dataset Preparation
+# Download dataset ([MvTec3D-AD](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads))
 
 
-## 📁 Repository Structure
+# Prepare dataset structure
+python scripts/prepare_data.py --dataset dataset-name --data_dir ./data
 
-.
-├── .github
-│   └── workflows
-│       └── main.yml
-├── README.md
-├── action.yml
-├── main.py
-└── tree.sh
+
+
 
