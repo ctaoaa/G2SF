@@ -89,7 +89,10 @@ pip install -r requirements.txt
 1. Download the following two multimodal AD datasets ([MvTec3D-AD](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads), [Eyecandies](https://eyecan-ai.github.io/eyecandies/download))
 2. Preprocess them with the scripts contained in *Preprocessing* filefolder. Besides, you can directly download our preprocessed MvTec3D-AD [here](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads).
 
-## 🚀 Train & 
+## 📥 Checkpoints
+
+
+## 🚀 Inference G^2SF
 
 
 
