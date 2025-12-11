@@ -97,6 +97,13 @@ pip install -r requirements.txt
   ├── dino_vitbase8_pretrain.pth
   
   ├── pointmae_pretrain.pth   
+
+
+        
+        
+        
+        
+       
   
    
 
