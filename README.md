@@ -11,7 +11,11 @@
   <img src="framework.pdf" width="80%">
 </p>
 
-<embed src="framework.pdf" width="600" height="500" type="application/pdf">
+<p align="center">
+  <a href="https://github.com/ctaoaa/G2SF/raw/main/framework.pdf">
+    <img src="https://img.shields.io/badge/PDF-Framework-1f7ede?style=flat&logo=adobe-acrobat" alt="Framework PDF"/>
+  </a>
+</p>
 
 
 <h1 align="center">G$^2$SF: Geometry-Guided Score Fusion for Multimodal Industrial Anomaly Detection</h1>
