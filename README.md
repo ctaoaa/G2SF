@@ -140,7 +140,8 @@ cd ./G2SF_GITHUB
 python3 main.py --load_feature False --load_fusion_dataset False --load_fuser False --dataset mvtec (or eyecandies)
 ```
 
-
+## 🙏 Acknowledgements
+We would like to extend our sincere appreciation to the authors of the following projects for making their code available, including [M3DM](https://github.com/nomewang/M3DM) and [CFM](https://github.com/CVLAB-Unibo/crossmodal-feature-mapping/tree/main).
 
 
 
