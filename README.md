@@ -112,8 +112,13 @@ pip install -r requirements.txt
 
 ## 🚀 Inference G^2SF
 ```bash
-# G^2SF requires to construct memory banks. It takes a few minutes per class to contruct them that follows M3DM [wang et al., CVPR 2023](https://github.com/nomewang/M3DM).
+# G^2SF requires the construction of memory banks during the initial run; this takes a few minutes per class, following the approach of M3DM [Wang et al., CVPR 2023](https://github.com/nomewang/M3DM).
+python3 main.py --load_feature False --load_fusion_dataset True --load_fuser True --dataset mvtec(or eyecandies)
+
+# For subsequent runs, you can simply execute:
+python3 main.py --load_feature True --load_fusion_dataset True --load_fuser True --dataset mvtec(or eyecandies)
 ```
+
 
 
 
