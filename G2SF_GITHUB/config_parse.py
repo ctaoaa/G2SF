@@ -93,13 +93,13 @@ def parse_args():
     args = parser.parse_args()
 
     if args.dataset == 'mvtec':
-        args.dataset_path = r"/home/chengyu/dataset/MVTEC 3D"
-        args.full_dataset_path = r"/home/chengyu/MVTEC-3D-AD/MVTEC 3D"
+        args.dataset_path = r"/home/xxx/MVTEC3D-AD_preprocessed"
+        args.full_dataset_path = r"/home/xxx/MVTEC3D-AD_original"
         args.source_path = os.path.join(args.dataset_path, 'anomaly_source')
 
     if args.dataset == 'eyecandies':
-        args.dataset_path = r"D:\Eyecandies_preprocessed"
-        args.full_dataset_path = r"D:\Eyecandies_preprocessed"
+        args.dataset_path = r"/home/xxx/Eyecandies_preprocessed"
+        args.full_dataset_path = r"/home/xxx/Eyecandies_preprocessed"
         args.source_path = os.path.join(args.dataset_path, 'anomaly_source')
 
     args.normalize_mean, args.normalize_std = [0.485, 0.456, 0.406], [0.229, 0.224, 0.225]
