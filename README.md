@@ -34,7 +34,7 @@
 </p>
 ---
 
-### I'm  working for it in a few days!
+### The training code for eyecandies dataset will be avaible within a few days!
 
 
 ## 🎯 Overview
