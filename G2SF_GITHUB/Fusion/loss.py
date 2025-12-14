@@ -53,11 +53,6 @@ class WDSADMarginLoss(torch.nn.Module):
             loss_anomaly = F.relu(1 / (dist[targets == -1] + self.eps) - 1 / self.margin)
 
             if is_weighted:
-                # weight = (dist + 0.5) ** self.alpha
-                # torch.clamp_(weight, max=3.0)
-                # weight_a = (1 / (dist + self.eps) + 0.5) ** self.alpha
-                # torch.clamp_(weight_a, max=3.0)
-
                 weight = (dist) ** self.alpha
                 torch.clamp_(weight, max=3.0, min=0.33)
                 weight_a = (1 / (dist + self.eps)) ** self.alpha
