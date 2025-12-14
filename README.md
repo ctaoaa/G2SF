@@ -88,8 +88,8 @@ pip install -r requirements.txt
 ```
 ## 🗄️ Datasets
 1. Download the following two multimodal AD datasets ([MvTec3D-AD](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads), [Eyecandies](https://eyecan-ai.github.io/eyecandies/download)).
-2. Preprocess them with the scripts contained in *Preprocessing* filefolder. Besides, you can directly download our preprocessed MvTec3D-AD [here](https://drive.google.com/file/d/1QaFiI5l4_PWE-enegdUgOGYYlTHWAQkT/view?usp=sharing).
-3. Set your MvTec3D-AD and Eyecandies dataset paths in *config_parse.py*, respectively. Notably, we require the original MvTec3D-AD dataset during anomaly synthesis.
+2. Preprocess them with the scripts contained in *Preprocess* filefolder. Besides, you can directly download our preprocessed MvTec3D-AD [here](https://drive.google.com/file/d/1QaFiI5l4_PWE-enegdUgOGYYlTHWAQkT/view?usp=sharing).
+3. Set your MvTec3D-AD and Eyecandies dataset paths in *config_parse.py*, respectively. Notably, we require the original MvTec3D-AD dataset during anomaly synthesis, i.e., *args.full_dataset_path* in Line 97 of *config_parse.py*.
 
 ## 📥 Checkpoints
 1. Download the weights of RGB and point cloud feature extractors, i.e., [Dinov2](https://drive.google.com/file/d/14vQqN4Do1Vnx2TZVJ16LAW81FRq3o-UQ/view?usp=sharing) and [PointMAE](https://drive.google.com/file/d/14d04kH3bX2BbDEIJPI4MkRtolfQw_fds/view?usp=sharing). Moving them into *./G2SF_GITHUB/Checkpoints/* filefolder.
