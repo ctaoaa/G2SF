@@ -112,7 +112,7 @@ pip install -r requirements.txt
 
 ## 🚀 Inference G^2SF
 ```bash
-
+# G^2SF requires to construct memory banks. It takes a few minutes per class to contruct them that follows M3DM [wang et al., CVPR 2023](https://github.com/nomewang/M3DM).
 ```
 
 
