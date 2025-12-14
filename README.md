@@ -120,14 +120,14 @@ python3 main.py --load_feature True --load_fusion_dataset True --load_fuser True
 ```
 ## 🚀 Train G^2SF
 
-*The tunning parameters are slightly different from our original paper since we lost our original python enviroment due to hardware issue. In addition, we add a weighted form of separation loss (Eq. (4)) for stable training, as follows:*
+*Due to a hardware failure that forced us to rebuild the Python environment, the tuning parameters differ slightly from those reported in our original paper. In addition, we add a weighted form of separation loss (Eq. (4)) for stable training, as follows:*
 
 <!-- Separation loss -->
 <p align="left">
   <img src="weighted_seperation_loss.jpg" width="30%">
 </p>
 
-We obtain a better AUPRO@1% 47.1
+We obtain a better AUPRO@1% 47.1.
 
 
 ```bash
