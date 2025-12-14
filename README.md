@@ -137,6 +137,8 @@ cd ./G2SF_GITHUB/Dataset
 python3 create_anomaly_source.py --dataset mvtec (or eyecandies)
 
 # Train G^2SF as follows:
+cd ./G2SF_GITHUB
+
 python3 main.py --load_feature False --load_fusion_dataset False --load_fuser False --dataset mvtec (or eyecandies)
 ```
 
