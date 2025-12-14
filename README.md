@@ -91,8 +91,8 @@ pip install -r requirements.txt
 2. Preprocess them with the scripts contained in *Preprocessing* filefolder. Besides, you can directly download our preprocessed MvTec3D-AD [here](https://drive.google.com/file/d/1QaFiI5l4_PWE-enegdUgOGYYlTHWAQkT/view?usp=sharing).
 
 ## 📥 Checkpoints
-1. Download the weights of RGB and point cloud feature extractors, i.e., [Dinov2](https://drive.google.com/file/d/14vQqN4Do1Vnx2TZVJ16LAW81FRq3o-UQ/view?usp=sharing) and [PointMAE](https://drive.google.com/file/d/14d04kH3bX2BbDEIJPI4MkRtolfQw_fds/view?usp=sharing). Moving them into *./G2SF/Checkpoints/* filefolder.
-2. Download the weights of **G^2SF** [here](https://drive.google.com/file/d/1j_6RtoBK4U2GgYWVFx0r6lBU0Coxzbnu/view?usp=sharing). Unzipping and moving them into *./G2SF/Results/* filefolder. **DO NOT CHANGE THE STRUCTURES OF SUBFOLDERS**.
+1. Download the weights of RGB and point cloud feature extractors, i.e., [Dinov2](https://drive.google.com/file/d/14vQqN4Do1Vnx2TZVJ16LAW81FRq3o-UQ/view?usp=sharing) and [PointMAE](https://drive.google.com/file/d/14d04kH3bX2BbDEIJPI4MkRtolfQw_fds/view?usp=sharing). Moving them into *./G2SF_GITHUB/Checkpoints/* filefolder.
+2. Download the weights of **G^2SF** [here](https://drive.google.com/file/d/1j_6RtoBK4U2GgYWVFx0r6lBU0Coxzbnu/view?usp=sharing). Unzipping and moving them into *./G2SF_GITHUB/Results/* filefolder. **DO NOT CHANGE THE STRUCTURES OF SUBFOLDERS**.
 3. Please check the following organization structure:
 -
    Checkpoint/
@@ -111,10 +111,7 @@ pip install -r requirements.txt
 
 ## 🚀 Inference G^2SF
 ```bash
-1. Setting your MvTec3D-AD and Eyecandies dataset paths. Notably, 
-
-
-git clone https://github.com/ctaoaa/G2SF.git
+Sett your MvTec3D-AD and Eyecandies dataset paths in *config_parse.py*, respectively. Notably, we require the original MvTec3D-AD dataset during anomaly synthesis.
 
 ```
 
