@@ -6,7 +6,7 @@ import pandas as pd
 
 from Util import init_seeds
 import warnings
-from config_parse_v2 import parse_args
+from config_parse import parse_args
 from Dataset import mvtec3d_classes, eyecandies_classes
 from Engine.train import train
 import pickle
