@@ -113,12 +113,26 @@ pip install -r requirements.txt
 ## 🚀 Inference G^2SF
 ```bash
 # G^2SF requires the construction of memory banks during the initial run; this takes a few minutes per class, following the approach of M3DM [Wang et al., CVPR 2023](https://github.com/nomewang/M3DM).
-python3 main.py --load_feature False --load_fusion_dataset True --load_fuser True --dataset mvtec(or eyecandies)
+python3 main.py --load_feature False --load_fusion_dataset True --load_fuser True --dataset mvtec (or eyecandies)
 
 # For subsequent runs, you can simply execute:
-python3 main.py --load_feature True --load_fusion_dataset True --load_fuser True --dataset mvtec(or eyecandies)
+python3 main.py --load_feature True --load_fusion_dataset True --load_fuser True --dataset mvtec (or eyecandies)
 ```
+## 🚀 Train G^2SF
 
+*The tunning parameters are slightly different from our original paper since we lost our original python enviroment due to hardware issue. In addition, we add a weighted form of separation loss (Eq. (4)), as *
+
+L_{\mathrm{sep}} = \sum_i (1 - y_i) w_{i,n} l_{i,0} + y_i w_{i,a} (l_{i,0}^{-1} - m^{-1})_{+}、
+
+
+```bash
+# You need to create anomaly sources from normal data across the whole dataset
+cd ./G2SF_GITHUB/Dataset
+
+python3 create_anomaly_source.py --dataset mvtec (or eyecandies)
+
+# Train G^2SF as follows
+```
 
 
 
