@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: pointnet2_ops
+Version: 3.0.0
+Author: Erik Wijmans
+Requires-Dist: torch>=1.4
+Dynamic: author
+Dynamic: requires-dist

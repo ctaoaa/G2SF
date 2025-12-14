@@ -1,0 +1,10 @@
+# ninja log v5
+230	11255	7302892469054551	C:/Users/taochengyu/pointnet2_ops_lib/build/temp.win-amd64-cpython-39/Release/pointnet2_ops/_ext-src/src/bindings.obj	91ab7beed884e54a
+258	11267	7302892469204047	C:/Users/taochengyu/pointnet2_ops_lib/build/temp.win-amd64-cpython-39/Release/pointnet2_ops/_ext-src/src/sampling.obj	1aa0c7afc9301d8a
+237	11281	7302892469174137	C:/Users/taochengyu/pointnet2_ops_lib/build/temp.win-amd64-cpython-39/Release/pointnet2_ops/_ext-src/src/group_points.obj	e9f091e9a3ae7bcf
+248	11293	7302892469134269	C:/Users/taochengyu/pointnet2_ops_lib/build/temp.win-amd64-cpython-39/Release/pointnet2_ops/_ext-src/src/interpolate.obj	b19632d99a998249
+0	11309	7302892469174137	C:/Users/taochengyu/pointnet2_ops_lib/build/temp.win-amd64-cpython-39/Release/pointnet2_ops/_ext-src/src/ball_query.obj	e5277bb7c707860a
+253	38191	7302892738245614	C:/Users/taochengyu/pointnet2_ops_lib/build/temp.win-amd64-cpython-39/Release/pointnet2_ops/_ext-src/src/interpolate_gpu.obj	3d9c675fe5ad1c4e
+226	38221	7302892738285483	C:/Users/taochengyu/pointnet2_ops_lib/build/temp.win-amd64-cpython-39/Release/pointnet2_ops/_ext-src/src/ball_query_gpu.obj	d215b22726e82208
+244	38231	7302892738235651	C:/Users/taochengyu/pointnet2_ops_lib/build/temp.win-amd64-cpython-39/Release/pointnet2_ops/_ext-src/src/group_points_gpu.obj	4d3f9f7abfb16913
+262	39170	7302892748051255	C:/Users/taochengyu/pointnet2_ops_lib/build/temp.win-amd64-cpython-39/Release/pointnet2_ops/_ext-src/src/sampling_gpu.obj	f9c356e9179f8f2e

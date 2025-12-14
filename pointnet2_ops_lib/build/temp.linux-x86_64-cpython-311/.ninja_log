@@ -1,0 +1,10 @@
+# ninja log v5
+2	15553	1764681730896183229	/home/chengyu/pointnet2_ops_lib/build/temp.linux-x86_64-cpython-311/pointnet2_ops/_ext-src/src/bindings.o	2876982b81f5de01
+1	15630	1764681730973183258	/home/chengyu/pointnet2_ops_lib/build/temp.linux-x86_64-cpython-311/pointnet2_ops/_ext-src/src/sampling.o	77d0ed7353c7c9a4
+2	15766	1764681731108183310	/home/chengyu/pointnet2_ops_lib/build/temp.linux-x86_64-cpython-311/pointnet2_ops/_ext-src/src/group_points.o	ba2427d8538f601d
+0	15780	1764681731114183312	/home/chengyu/pointnet2_ops_lib/build/temp.linux-x86_64-cpython-311/pointnet2_ops/_ext-src/src/ball_query.o	58a929e20baade4
+3	15794	1764681731120183314	/home/chengyu/pointnet2_ops_lib/build/temp.linux-x86_64-cpython-311/pointnet2_ops/_ext-src/src/interpolate.o	938e4c929466e094
+14	55855	1764682221160573129	/home/chengyu/pointnet2_ops_lib/build/temp.linux-x86_64-cpython-311/pointnet2_ops/_ext-src/src/group_points_gpu.o	4f53aec38c14fc8e
+14	56412	1764682221718573741	/home/chengyu/pointnet2_ops_lib/build/temp.linux-x86_64-cpython-311/pointnet2_ops/_ext-src/src/ball_query_gpu.o	87852683ed70c1ad
+15	57489	1764682222798574926	/home/chengyu/pointnet2_ops_lib/build/temp.linux-x86_64-cpython-311/pointnet2_ops/_ext-src/src/interpolate_gpu.o	d7824e0f5dbfc88b
+16	57658	1764682222964575108	/home/chengyu/pointnet2_ops_lib/build/temp.linux-x86_64-cpython-311/pointnet2_ops/_ext-src/src/sampling_gpu.o	59dd91afbaecf06c
