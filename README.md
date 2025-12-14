@@ -110,6 +110,13 @@ pip install -r requirements.txt
 
 
 ## 🚀 Inference G^2SF
+```bash
+1. Setting your MvTec3D-AD and Eyecandies dataset paths. Notably, 
+
+
+git clone https://github.com/ctaoaa/G2SF.git
+
+```
 
 
 
