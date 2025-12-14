@@ -126,6 +126,11 @@ L_{\mathrm{sep}} = \sum_i (1 - y_i) w_{i,n} l_{i,0} + y_i w_{i,a} (l_{i,0}^{-1} 
 w_{i,n} = clamp(l_{i,0}^2, max=3, min=0.33)
 w_{i,a} = clamp(1/(l_{i,0}+eps)^2, max=3, min=0.33)
 
+<!-- Weighted Separation loss -->
+<p align="center">
+  <img src="weighted_seperation_loss.jpg" width="30%">
+</p>
+
 
 ```bash
 # You need to create anomaly sources from normal data across the whole dataset
