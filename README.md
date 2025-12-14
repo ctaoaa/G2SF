@@ -136,7 +136,7 @@ python3 main.py --load_feature True --load_fusion_dataset True --load_fuser True
 
 <!-- Separation loss -->
 <p align="left">
-  <img src="weighted_seperation_loss.jpg" width="40%">
+  <img src="weighted_seperation_loss.jpg" width="35%">
 </p>
 
 We obtain a better AUPRO@1% 47.1 for MvTec3D-AD dataset. The retrained model weights can be found [here](https://drive.google.com/file/d/1rfnq2sncNONWsvohxjWcFKBi_BSDAieg/view?usp=sharing).
